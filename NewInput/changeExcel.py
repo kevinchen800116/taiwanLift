@@ -66,4 +66,4 @@ print("全部資料："+str(All_test_Data))
 
 # workbook.save(filename="NewInput_Data.xlsx")
 workbook.save(
-    "C:\\Users\\user\Desktop\\test2\\Zrealtest\\NewInput\\NewInput_Data.xlsx")
+    "C:\\Users\\user\\Desktop\\PortableGit\\Zrealtest\\NewInput\\NewInput_Data.xlsx")
