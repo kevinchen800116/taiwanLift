@@ -1,17 +1,19 @@
+
 from selenium import webdriver
-from U_LoginPage import LoginPage
 import traceback
 import pytest
 import os
 import sys
 import time
 import datetime
+
 o_path = os.path.abspath(os.path.join(os.getcwd(), '..'))
 sys.path.append(o_path)
 
-
+from U_LoginPage import LoginPage
 # 執行此命令進行測試
 # python -m pytest -v -s
+
 
 def test_NIFA0801(my_fixture):
     # 依照All_test_Data的append順序決定
