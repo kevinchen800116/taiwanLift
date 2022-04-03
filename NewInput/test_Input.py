@@ -30,7 +30,7 @@ def test_NIFA0801(my_fixture):
         driver = webdriver.Chrome(options=options)
         driver.implicitly_wait(30)
 
-        # url ="https://10.1.113.23:9443/"
+        # url = "https://10.1.113.23:9443/"
         url = "https://www.google.com/"
         username = "TEST36"
         password = "admin001"
