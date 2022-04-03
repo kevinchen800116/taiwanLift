@@ -40,7 +40,7 @@ def test_NIFA0801(my_fixture):
         # Policy_number='9005009993'# (女)9005010510
 
     # ------登入---------
-        test = LoginPage(driver, url, u"人壽保險核心業務系統")
+        test = LoginPage(driver, url, u"Google")
         test.open()
         test.switch_frame('fraInterface')
         test.input_username(username)
